@@ -1,7 +1,5 @@
 # Big_Data
-Here’s a professional and detailed description you can include in your **README.md** file for the project:
 
----
 
 # LinkedIn Profile Management App
 
@@ -41,8 +39,8 @@ This project is a **Flask-based web application** that allows users to **store, 
 ### Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/zobiabilal4/Big-Data.git
-   cd big-data
+   git clone https://github.com/zobiabilal4/Big_Data.git
+   cd big_data
    ```
 2. Install dependencies:  
    ```bash
@@ -60,10 +58,10 @@ This project is a **Flask-based web application** that allows users to **store, 
 
 ## 📷 Screenshots  
 ### Add a LinkedIn Profile  
-![Add Profile](app_1.png)
+![Add Profile](https://github.com/zobiabilal4/Big_Data/blob/master/app_1.png)
 
 ### View All Profiles  
-![View Profiles](app_2.png)
+![View Profiles](https://github.com/zobiabilal4/Big_Data/blob/master/app_2.png)
 
 ## 🤝 Contributions  
 Contributions are welcome! Feel free to submit a pull request or open an issue to discuss improvements.
