@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Profiles</title>
+</head>
+<body>
+    <h1>LinkedIn Profiles</h1>
+    <ul>
+        {% for profile in profiles %}
+        <li>
+            <strong>{{ profile.name }}</strong> - {{ profile.email }}<br>
+            <em>{{ profile.phone }}</em><br>
+            <p>Education: {{ profile.education }}</p>
+            <p>Experience: {{ profile.experience }}</p>
+            <form action="{{ url_for('delete_profile', profile_id=profile._id) }}" method="POST">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('home') }}">Add a New Profile</a>
+</body>
+</html>
